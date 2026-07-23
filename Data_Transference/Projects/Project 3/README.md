@@ -51,8 +51,8 @@ The project demonstrates a complete "Capture -> Analyze -> Visualize" pipeline. 
    python3 bm.py
 
 ## 👥 Contributors
-Soroush Maleki
-Ali Aghabarrari Kazemi
+- Soroush Maleki
+- Ali Aghabarrari Kazemi
 
 ## 📝 License
 This project is created for academic purposes as part of the "Data Transmission" course at University of Mazandaran.

@@ -21,24 +21,38 @@ The project demonstrates a complete "Capture -> Analyze -> Visualize" pipeline. 
 - **Counter (Collections)** (For statistical aggregation of IPs and Protocols).
 
 ## 📂 Project Structure
-```bash
-📁 Project 4/
-│
-├── 📄 ProjectDT.pdf                 # Complete project report (in Persian)
-├── 📄 final_code.py                 # Main Python script for reading & analyzing .pcapng files
-├── 📄 bm.py                         # Python script to craft and send an ARP Broadcast packet
-│
-├── 📁 packets/                      # Folder containing the raw captured traffic files
-│   ├── dns_capture.pcapng
-│   ├── tcp_capture.pcapng
-│   ├── http_capture.pcapng
-│   ├── icmp_capture.pcapng
-│   └── arp_capture.pcapng
-│
-└── 📁 charts/                       # Generated visualization outputs
+    ```bash📁 
+    Project 4/
+    │
+    ├── 📄 ProjectDT.pdf                 # Complete project report (in Persian)
+    ├── 📄 final_code.py                 # Main Python script for reading & analyzing .pcapng files
+    ├── 📄 bm.py                         # Python script to craft and send an ARP Broadcast packet
+    │
+    ├── 📁 packets/                      # Folder containing the raw captured traffic files
+    │   ├── dns_capture.pcapng
+    │   ├── tcp_capture.pcapng
+    │   ├── http_capture.pcapng
+    │   ├── icmp_capture.pcapng
+    │   └── arp_capture.pcapng
+    │
+    └── 📁 charts/                       # Generated visualization outputs
     ├── chart_DNS.png
     ├── chart_TCP_TLS.png
     └── chart_HTTP.png
 ## 🚀 How to Run the Analysis
 1. Install dependencies: (if not intalled yet)
     ```bash
+    pip install scapy matplotlib
+2. Run the main analyzer:
+   ```bash
+   python3 final_code.py
+3. (Optional) Run the ARP broadcast simulator:
+   ```bash
+   python3 bm.py
+
+## 👥 Contributors
+Soroush Maleki
+Ali Aghabarrari Kazemi
+
+## 📝 License
+This project is created for academic purposes as part of the "Data Transmission" course at University of Mazandaran.

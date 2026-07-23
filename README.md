@@ -4,7 +4,7 @@ Here, I implement fundamental networking concepts from the physical layer up to 
 
 
 ## 📂 Projects
-- **[Project 1: L2 Switch Simulator](Data_Transference/projects/Project_1_L2_Switch/README.md)**: 
+- **[Project 4: L2 Switch Simulator](Data_Transference/projects/Project-4/README.md)**: 
   A custom Layer 2 switch implemented in Python featuring Self-Learning MAC tables, Flooding, and CRC Error Detection.
 
 ## 🛠️ Technologies

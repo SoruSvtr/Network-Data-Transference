@@ -21,7 +21,6 @@ The project demonstrates a complete "Capture -> Analyze -> Visualize" pipeline. 
 - **Counter (Collections)** (For statistical aggregation of IPs and Protocols).
 
 ## 📂 Project Structure
-    ```bash📁 
     Project 4/
     │
     ├── 📄 ProjectDT.pdf                 # Complete project report (in Persian)
